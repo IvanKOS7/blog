@@ -1,8 +1,8 @@
 <h3> Comments </h3>
 
 <div id="comments">
-    <%= render post.comments %>
+    <%= render @post.comments %>
 
 </div>
 
-<%= render "comments/new", post: post %>
+<%= render "comments/form", post: post %>
